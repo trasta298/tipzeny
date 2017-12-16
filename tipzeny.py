@@ -114,7 +114,7 @@ def on_tweet(status):
 		elif re.match("withdraw", message) or re.match(u"出金", message):
 			m = re.split(" ", message)
 			if len(m) < 3 or not str_isfloat(m[2]):
-				helptweet(status, u"withdraw(出金)の使い方\n@￰zenytips withdraw 受取ZNYアドレス 出金額(ZNY)")
+				helptweet(status, u"withdraw(出金)の使い方\n@￰zenytips withdraw 受取ZNYアドレス 出金額(ZNY)\nhttps://github.com/trasta298/tipzeny/wiki")
 				return
 
 			address = m[1]
@@ -162,7 +162,7 @@ def on_tweet(status):
 		elif re.match("withdrawall", message) or re.match(u"全額出金", message):
 			m = re.split(" ", message)
 			if len(m) < 3 or not str_isfloat(m[2]):
-				helptweet(status, u"withdraw(出金)の使い方\n@￰zenytips withdraw 受取ZNYアドレス 出金額(ZNY)")
+				helptweet(status, u"withdraw(出金)の使い方\n@￰zenytips withdraw 受取ZNYアドレス 出金額(ZNY)\nhttps://github.com/trasta298/tipzeny/wiki")
 				return
 
 			address = m[1]
@@ -198,10 +198,10 @@ def on_tweet(status):
 		elif re.match("send", message) or re.match(u"送金", message):
 			m = re.split(" ", message)
 			if len(m) < 3 or not str_isfloat(m[2]):
-				helptweet(status, u"send(送金)の使い方\n@￰zenytips send @￰twitterアカウント 投銭額(ZNY)")
+				helptweet(status, u"send(送金)の使い方\n@￰zenytips send @￰twitterアカウント 投銭額(ZNY)\nhttps://github.com/trasta298/tipzeny/wiki")
 				return
 			if m[1][0] != "@":
-				helptweet(status, u"send(送金)の使い方\n@￰zenytips send @￰twitterアカウント 投銭額(ZNY)")
+				helptweet(status, u"send(送金)の使い方\n@￰zenytips send @￰twitterアカウント 投銭額(ZNY)\nhttps://github.com/trasta298/tipzeny/wiki")
 				return
 
 			to = m[1][1:]
@@ -239,10 +239,10 @@ def on_tweet(status):
 		elif re.match("tip", message) or re.match(u"投銭", message):
 			m = re.split(" ", message)
 			if len(m) < 3 or not str_isfloat(m[2]):
-				helptweet(status, u"tip(投銭)の使い方\n@￰zenytips tip @￰twitterアカウント 投銭額(ZNY)")
+				helptweet(status, u"tip(投銭)の使い方\n@￰zenytips tip @￰twitterアカウント 投銭額(ZNY)\nhttps://github.com/trasta298/tipzeny/wiki")
 				return
 			if m[1][0] != "@":
-				helptweet(status, u"tip(投銭)の使い方\n@￰zenytips tip @￰twitterアカウント 投銭額(ZNY)")
+				helptweet(status, u"tip(投銭)の使い方\n@￰zenytips tip @￰twitterアカウント 投銭額(ZNY)\nhttps://github.com/trasta298/tipzeny/wiki")
 				return
 
 			to = m[1][1:]
@@ -277,6 +277,9 @@ def on_tweet(status):
 			logger.info("-> Sent.")
 			tweet = "@" + to + u" りん姫より @" + name + u" さんから" + str(amount) + u"ZNYのお届け物だよっ！ 3日以内にbalanceして受け取ってね！"
 			api.update_status(status=tweet, in_reply_to_status_id=status.id)
+
+		else:
+			helptweet(status, u"りん姫の使い方はここっ\nhttps://github.com/trasta298/tipzeny/wiki")
 
 
 #3029861817
