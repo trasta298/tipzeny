@@ -12,43 +12,43 @@ Translated by [nao20010128nao](https://github.com/nao20010128nao).
 - You need at least 5 ZNY for receiving RAIN.
 
 ## balance
-### @zenytips balance (any comment, optional)
+### @rintips balance (any comment, optional)
 Replies you the balance you have.   
-**Example:** `@zenytips balance`    
+**Example:** `@rintips balance`    
 <img src="https://i.imgur.com/kjoqPPN.png" alt="" width="50%" height="50%">
 
 ## deposit
-### @zenytips deposit (any comment, optional)
+### @rintips deposit (any comment, optional)
 Replies you deposit address.    
-**Example:** `@zenytips deposit`     
+**Example:** `@rintips deposit`     
 <img src="https://i.imgur.com/r6cxfFc.png" alt="" width="50%" height="50%">
 
 ## withdraw
-### @zenytips withdraw (ZNY address, required) (amount to withdraw, required)
+### @rintips withdraw (ZNY address, required) (amount to withdraw, required)
 Withdraws specified amount of BitZeny to the specified address.    
-**Example:** `@zenytips withdraw ZuGdQvycbE9HTfke3EPcSUQEH2joaYqXjj 10`    
+**Example:** `@rintips withdraw ZuGdQvycbE9HTfke3EPcSUQEH2joaYqXjj 10`    
 <img src="https://i.imgur.com/NNqJiEu.png" alt="" width="50%" height="50%">
 
 ## withdrawall
-### @zenytips withdrawall (ZNY address, required)
+### @rintips withdrawall (ZNY address, required)
 Withdraws *all* BitZeny to the specified address.        
-**Example:** `@zenytips withdrawall ZuGdQvycbE9HTfke3EPcSUQEH2joaYqXjj`    
+**Example:** `@rintips withdrawall ZuGdQvycbE9HTfke3EPcSUQEH2joaYqXjj`    
 **CAUTION:** This command will withdraw **ALL** BitZeny including the last 5ZNY.
 
 ## send
-### @￰zenytips send (Twitter account ID starting with @, required) (amount to send, required) (any comment, optional)
+### @￰rintips send (Twitter account ID starting with @, required) (amount to send, required) (any comment, optional)
 Sends specified amount of BitZeny to the specified account.
 
 ## tip
-### @￰zenytips tip (Twitter account ID starting with @, required) (amount to tip, required) (any comment, optional)
+### @￰rintips tip (Twitter account ID starting with @, required) (amount to tip, required) (any comment, optional)
 Sends specified amount of BitZeny to the specified account.    
 The receiver needs to use `balance` command within 3 days to receive.    
 If the receiver didn't received your tip, it'll be sent back to your balance.    
-**Example:** `@zenytips tip @tra_sta 3.9 Thanks!`
-**Tip:** You can donate the author by: `@￰zenytips tip @￰zenytips (amount to tip, required)`
+**Example:** `@rintips tip @tra_sta 3.9 Thanks!`
+**Tip:** You can donate the author by: `@￰rintips tip @￰rintips (amount to tip, required)`
 
 ## rain
-### @￰zenytips rain (amount to rain, required)
+### @￰rintips rain (amount to rain, required)
 Delivers equally ZNYs to the users who fulfilled the following condition:
 - Have deposited at least 5 ZNY.
 
@@ -57,7 +57,7 @@ Only available in the Direct Messages.
 Replies the list of users who fulfilled the condition to get rained.
 
 ## rainfollower
-### @￰zenytips rainfollower (amount to rain, required)
+### @￰rintips rainfollower (amount to rain, required)
 Delivers equally ZNYs to the users who fulfilled the following conditions:
 - Have deposited at least 5 ZNY.
 - Your follower.
@@ -68,7 +68,7 @@ Only available in the Direct Messages.
 Replies the list of users who fulfilled the condition to get rained in your follower.
 
 ## giveme
-### @zenytips giveme (any comment, optional)
+### @rintips giveme (any comment, optional)
 If your account fulfills the following conditions, you can get a little ZNYs.    
 - Using official client.
 - Tweeted more than 100 tweets.
@@ -81,8 +81,8 @@ If your account fulfills the following conditions, you can get a little ZNYs.
 
 ## A hidden command only available for the New Year Day
 **Caution:** The following command contains Japanese Kanjis, you may need Copy and Paste.
-### @￰zenytips お年玉 (Twitter account ID starting with @, required) (amount to tip, required) (any comment, optional)
+### @￰rintips お年玉 (Twitter account ID starting with @, required) (amount to tip, required) (any comment, optional)
 Alias of `tip` command.
 
-### @￰zenytips お賽銭 (amount to tip, required) (any comment, optional)
+### @￰rintips お賽銭 (amount to tip, required) (any comment, optional)
 You can make a money offering. More you make a money offering, I will be happier.
