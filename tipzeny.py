@@ -368,6 +368,12 @@ class Listener(StreamListener):
     	on_tweet(status)
         return True
 
+    def on_data(self, raw_data):
+    	data = json.loads(raw_data)
+        if 'direct_message' in data:
+            print(raw_data)
+        return True
+
     def on_error(self, status_code):
         logger.error('エラー発生: ' + str(status_code))
         return True
