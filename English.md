@@ -82,7 +82,7 @@ If your account fulfills the following conditions, you can get a little ZNYs.
 ## A hidden command only available for the New Year Day
 **Caution:** The following command contains Japanese Kanjis, you may need Copy and Paste.
 ### @￰rintips お年玉 (Twitter account ID starting with @, required) (amount to tip, required) (any comment, optional)
-Alias of `tip` command.
+You can send a New Year present.  
 
 ### @￰rintips お賽銭 (amount to tip, required) (any comment, optional)
-You can make a money offering. More you make a money offering, I will be happier.
+You can make a money offering. More you make, I will be happier.  
