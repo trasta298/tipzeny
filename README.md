@@ -2,5 +2,5 @@
 
 使い方は  
 [使い方](https://github.com/trasta298/tipzeny/blob/master/Japanese.md)  
-[Usage](https://github.com/trasta298/tipzeny/blob/master/Enslish.md)  
+[Usage](https://github.com/trasta298/tipzeny/blob/master/English.md)  
 をどうぞ
