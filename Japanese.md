@@ -47,7 +47,7 @@ botが止まっていた時や質問があるときは[開発者twitter](https:/
 ### @￰zenytips rain 撒銭額
 条件を満たしている人に均等にZNYを送ります。  
 rainを受け取れる条件は、残高5zny以上で`balance`をしていることです。    
-
+<!--
 ## rainlist
 DMでのみ使えます。rainを受け取る条件を満たしている人一覧を返します。    
 
@@ -57,7 +57,7 @@ DMでのみ使えます。rainを受け取る条件を満たしている人一�
 
 ## rainfollowerlist
 DMでのみ使えます。`rainfollower`を受け取る条件を満たしている人一覧を返します。    
-
+-->
 ## giveme
 ### @zenytips giveme (コメント)
 以下の条件を満たしているときにちょっとだけZNYがもらえます。また、DMではこのコマンドは使えません。  
