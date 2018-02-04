@@ -51,7 +51,7 @@ If the receiver didn't received your tip, it'll be sent back to your balance.
 ### @￰rintips rain (amount to rain, required)
 Delivers equally ZNYs to the users who fulfilled the following condition:
 - Have deposited at least 5 ZNY.
-
+<!--
 ## rainlist
 Only available in the Direct Messages.    
 Replies the list of users who fulfilled the condition to get rained.
@@ -66,7 +66,7 @@ Delivers equally ZNYs to the users who fulfilled the following conditions:
 ## rainfollowerlist
 Only available in the Direct Messages.    
 Replies the list of users who fulfilled the condition to get rained in your follower.
-
+-->
 ## giveme
 ### @rintips giveme (any comment, optional)
 If your account fulfills the following conditions, you can get a little ZNYs.    
