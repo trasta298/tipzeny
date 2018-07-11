@@ -36,6 +36,11 @@ botが止まっていた時や質問があるときは[開発者twitter](https:/
 ### @￰zenytips tip @￰zenytips 投銭額
 で開発者に寄付できます。サーバー維持費に使うので是非投げ銭ください。
 
+## thanks
+### @￰zenytips send @￰twitterアカウント (コメント)
+3.939ZNYを相手に送ります。
+例:`@zenytips thanks @tra_sta yay!` 
+
 ## 結婚
 ### @zenytips 結婚して
 "結婚"という文字を含めてりん姫にリプライを送ると返事が来るかも...？
