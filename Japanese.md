@@ -41,11 +41,6 @@ botが止まっていた時や質問があるときは[開発者twitter](https:/
 3.939ZNYを相手に送ります。
 例:`@zenytips thanks @tra_sta yay!` 
 
-## 結婚
-### @zenytips 結婚して
-"結婚"という文字を含めてりん姫にリプライを送ると返事が来るかも...？
-りん姫にたくさんtipしたりすると高感度が...？
-
 <!--
 ## tip/投銭
 ### @￰zenytips tip @￰twitterアカウント 投銭額 (コメント)
